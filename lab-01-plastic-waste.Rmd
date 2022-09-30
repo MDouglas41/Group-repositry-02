@@ -47,10 +47,13 @@ ggplot(data = plastic_waste,
 
 ### Exercise 4
 
-*Remove this text, and add your answer for Exercise 4 here.*
+*The outliers are apparent in boxplot*
 
 ```{r plastic-waste-violin}
-# remove this comment and add the code for Exercise 4 here
+ggplot(data = plastic_waste, 
+       mapping = aes(x = continent, 
+                     y = plastic_waste_per_cap)) +
+  geom_violin()
 ```
 
 ### Exercise 5
