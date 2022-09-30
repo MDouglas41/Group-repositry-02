@@ -1,6 +1,6 @@
 ---
 title: "Lab 01 - Plastic waste"
-author: "Tianchang_Lu"
+author: "Tianchang_Lu Qimiao_Li"
 date: "`r Sys.Date()`"
 output: html_document
 ---
