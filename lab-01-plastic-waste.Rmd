@@ -27,19 +27,23 @@ ggplot(data = plastic_waste,
        mapping = aes(x = plastic_waste_per_cap, 
                      color = continent)) +
   geom_density()
-
-
-
-
+```
 
 
 ### Exercise 2
 
-# remove this comment and add the code for Exercise 2 here
+```{r plastic-waste-density}
+ggplot(data = plastic_waste, 
+       mapping = aes(x = plastic_waste_per_cap, 
+                     color = continent, 
+                     fill = continent)) +
+  geom_density(alpha = 0.4)
+```
 
 ### Exercise 3
 
-*Remove this text, and add your answer for Exercise 3 here.*
+*Since the single variable color could be changed through mapping while the transparency, referred to ALPHA, which could not be changed individually. So we could define the alpha as characteristic of the whole graph.* 
+
 
 ### Exercise 4
 
