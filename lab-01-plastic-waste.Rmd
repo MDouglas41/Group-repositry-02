@@ -1,6 +1,6 @@
 ---
 title: "Lab 01 - Plastic waste"
-author: "INSERT NAME HERE"
+author: "Tianchang_Lu"
 date: "`r Sys.Date()`"
 output: html_document
 ---
