@@ -22,14 +22,20 @@ plastic_waste <- read_csv("data/plastic-waste.csv")
 *Remove this text, and add your answer for Exercise 1 here.*
 
 ```{r plastic-waste-continent}
-# remove this comment and add the code for Exercise 1 here
-```
+
+ggplot(data = plastic_waste, 
+       mapping = aes(x = plastic_waste_per_cap, 
+                     color = continent)) +
+  geom_density()
+
+
+
+
+
 
 ### Exercise 2
 
-```{r plastic-waste-density}
 # remove this comment and add the code for Exercise 2 here
-```
 
 ### Exercise 3
 
@@ -82,4 +88,3 @@ plastic_waste_edit <- plastic_waste %>%
 
 # remove this comment and add the code for Exercise 8 here
 ```
-
